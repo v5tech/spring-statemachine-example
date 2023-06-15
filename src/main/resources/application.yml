@@ -1,0 +1,13 @@
+spring:
+  redis:
+    database: 0
+    host: 192.168.101.4
+    password: Redis@SmartOps
+    port: 6379
+    timeout: 10000
+    jedis:
+      pool:
+        enabled: true
+        max-active: 8
+        max-idle: 8
+        min-idle: 0
